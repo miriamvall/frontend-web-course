@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>REGISTER</title>
+    
+    <link rel=stylesheet href="../css/register.css">
+    
+    <link rel="stylesheet" href="../assets/alertify.core.css">
+    
+    <link rel="stylesheet" href="../assets/alertify.default.css">
+    
+    
+    
+</head>
+<body>
+    
+    
+    <form class="container">
+        <h6>REGISTER</h6>
+        
+        <!--input for username-->
+        <label for="username">Username <label class="asterisc">*</label></label><br>
+        <input type="text" id="username" minlength="3" required>
+        <p>The Username field must be longer than 3 characters</p>
+        <!--input for email-->
+        <label for="email">e-mail <label class="asterisc">*</label></label><br>
+        <input type="email" id="email" required>
+        <br><br>
+        <!--input for password-->
+        <label for="password">Password <label class="asterisc">*</label></label><br>
+        <input type="password" id="password" required>
+        <br><br>
+        <!--input for confirmation of passw-->
+        <label for="pass2">Confirm Password <label class="asterisc">*</label></label><br>
+        <input type="password" id="pass2" required>
+        <br>
+        <!--disclaimer al final del formulari-->
+        <p class="disclaimer">The fields marked with (<label class="max_asterisc">*</label>) are mandatory.
+        </p>
+        <!--buttons-->
+        <button class="cancel" type="button" onclick="cancel();">BACK TO LOG IN</button>
+        <button class="register" type="submit" onclick="register()">REGISTER</button>
+        
+    </form>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+<script src="../assets/alertify.min.js"></script>
+    
+<script type="text/javascript" src="../javascript/register.js"></script>
+    
+<script src="../javascript/jquery.register.js"></script>
+    
+</body>
+</html>

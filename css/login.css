@@ -1,0 +1,85 @@
+body {
+    background-image: url("../images/login/paint_fluid_art_stains_185363_1280x720.jpg");
+    background-size: cover;
+    font-family: Arial;
+    cursor:auto;
+}
+
+.container {
+    display: none;
+    float: center;
+    width: 35%;
+    height: 50%;
+    background-color: blueviolet;
+    margin: 17% auto;
+    text-align: center;
+}
+
+
+h2{
+    color: white;
+    font-size: 60px;
+    margin-top: 50px;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+    font-family: 'Playfair Display';
+}
+
+h6 {
+    margin-top: -.2em;
+    color: white;
+    font-size: 30px;
+    font-family: 'Playfair Display';
+}
+
+form {
+    margin-top: 1.5em;
+}
+
+input[type=text], input[type=password] {
+    width: 70%;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 2%;
+    font-family: Arial;
+}
+
+button {
+    width: 40%;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Playfair Display';
+    background-color: slateblue;
+    border-radius: 5%;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: lightslategray;
+    color: white;
+    font-weight: bold;
+    border-color: white;
+}
+
+button:active {
+    color: paleturquoise;
+}
+
+p {
+    margin-top: 1.5em;
+    font-size: 15px;
+}
+
+a {
+    color: white;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}

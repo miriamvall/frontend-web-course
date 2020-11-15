@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta lang="en" charset="utf-8">
+    <title>HOME</title>
+    
+    <link rel="stylesheet" href="../assets/jquery.pagepiling.css">
+    <link rel="stylesheet" href="../css/home.css">  
+    
+    
+</head>
+<body>
+    
+    <!--menu to link with the sections-->
+    <nav>
+        <ul id="myMenu">
+
+            <li data-menuanchor="Home" class="active">
+                <a href="#Welcome">Home</a>
+            </li>
+            <li data-menuanchor="About">
+                <a href="#About">About</a>
+            </li>
+            <li data-menuanchor="Video">
+                <a href="#Video">Video</a>
+            </li>
+            <li data-menuanchor="News">
+                <a href="#News">News</a>
+            </li>
+            <li data-menuanchor="Contact">
+                <a href="#Contact">Contact</a>
+            </li>
+
+        </ul>
+    </nav>
+    <!--pagepiling structure-->
+    
+    <div id="pagepiling">
+        
+        <div class="section sec1">
+            <h2>Welcome.</h2><p>A new platform providing support to sustainable innovation.</p></div>
+        <div class="section sec2"><h2 style="margin-right: 30px;">About us.</h2><p style="margin-right: 30px;">A little explanation will go here.</p></div>
+        <div class="section sec3">
+            <video autoplay loop muted id="myVideo">
+                 <source src="../multimedia/Eco-Friendly-Innovations.mp4">
+            </video>
+        </div>
+        <div class="section sec4"><h2 style="margin-right: 30px;">News</h2><p style="margin-right: 30px;">Read the latest news about sustainable innovation.<a class="newpage" href="news.html">See more</a><br><br></p></div>
+        <div class="section sec5"><h2 style="margin-right: 30px;">Contact us</h2><p style="margin-right: 30px;">Want to send us your info? <a class="newpage" href="contact.html">Send contact</a><br><br></p></div>
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+<script src="../assets/jquery.pagepiling.js"></script>
+    
+<script type="text/javascript">
+    $(document).ready(function() {
+        //pagepiling design
+        $("#pagepiling").pagepiling({
+            navigation: {
+            'textColor': '#fff',
+            'bulletsColor': '#fff',
+            'position': 'right',
+            // names on the bullets
+            'tooltips': ['Home', 'About','5 eco-friendly innovations', 'News', 'Contact']
+            },
+            afterRender: function() {
+                //play video once the page structure is generated
+                $('video').get(0).play();
+            },
+            anchors: ['Home', 'About', 'Video', 'News', 'Contact'],
+            menu: '#myMenu'
+        });
+    });
+</script>
+    
+</body>
+</html>

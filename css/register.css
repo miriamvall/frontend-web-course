@@ -1,0 +1,86 @@
+html,body {
+    background-image: url("../images/login/paint_fluid_art_stains_185363_1280x720.jpg");
+    background-size: cover;
+    cursor: auto;
+}
+
+h6 {
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0.5em;
+}
+
+.container {
+    display: none;
+    width: 35%;
+    height: auto;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    margin-left: 35%;
+    margin-right: 25%;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 70%;
+    height: auto;
+    font-size: 25px;
+    padding-left: 2%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+label{
+    font-size: 25px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    cursor: auto;
+}
+
+button {
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    background-color: slateblue;
+    color: white;
+    border-radius: 5%;
+    cursor: pointer;
+    margin-bottom: 0.5em;
+}
+
+.register:hover {
+    background-color: olivedrab;
+    color: white;
+    font-weight: bold;
+    border-color: olivedrab;
+}
+
+.register:active {
+    color: #ecf5e9;
+}
+
+.cancel:hover {
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+    border-color: darkred;
+}
+
+.asterisc {
+    color: red;
+}
+.max_asterisc {
+    color: red;
+    font-weight: 0;
+    font-size: 12px;
+}
+
+.disclaimer {
+    margin-top: 2em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

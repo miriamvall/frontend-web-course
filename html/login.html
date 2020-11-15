@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+    <title>LOGIN</title>
+    
+    <link rel="stylesheet" href="../css/login.css">
+    
+    <link href="assets/perspectiveRules.css" rel="stylesheet" />
+    
+    <script type=text/javascript src="../javascript/login.js"></script>
+    
+    <script src="assets/jquery.logosDistort.min.js"></script>
+
+</head>
+<body> 
+    
+    <h2 id="inici">CLICK TO LOG IN</h2>
+    
+    <div class="container">
+    
+        <h6>LOG IN</h6>
+        
+        <form>
+        
+            <input type="text" id="username" name="username" placeholder="user name" required><br><br>
+            <input type="text" id="password" name="password" placeholder="password" required><br><br>
+            
+            <button type="button" onclick="save_locally()">ENTER</button>
+            
+        </form>
+        
+        <p>Not registered yet?<a onclick="goto_register()"> Register now</a>
+        </p>
+        
+    </div>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    
+<script src="../javascript/jquery.login.js"></script>
+    
+</body>
+</html>
