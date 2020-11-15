@@ -1,4 +1,4 @@
-# course project
+# Frontend course project
 
 This is the basic structure for a website for a fictional sustainability organization, developed during an HTML, CSS and Javascript course at the Polytechnic University of Catalonia. It also implements JQuery plugins and animations.
 
