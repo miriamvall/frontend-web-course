@@ -1,6 +1,6 @@
 # course project
 
-This is a basic structure for a website for a fictional sustainability organization, developed during an HTML, CSS and Javascript course at the Polytechnic University of Catalonia. It also implements JQuery plugins and animations.
+This is the basic structure for a website for a fictional sustainability organization, developed during an HTML, CSS and Javascript course at the Polytechnic University of Catalonia. It also implements JQuery plugins and animations.
 
 The website has the following parts:
 
