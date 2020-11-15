@@ -16,3 +16,15 @@ Miriam Vall - miriam.vall@estudiantat.upc.edu
 ## Some pics of the website:
 
 ![home](https://github.com/miriamvall/frontend-web-course/blob/master/screenshots/shot4.png?raw=true)
+
+![about](https://github.com/miriamvall/frontend-web-course/blob/master/screenshots/shot5.png?raw=true)
+
+![about](https://github.com/miriamvall/frontend-web-course/blob/master/screenshots/shot6.png?raw=true)
+
+![about](https://github.com/miriamvall/frontend-web-course/blob/master/screenshots/shot2.png?raw=true)
+
+![about](https://github.com/miriamvall/frontend-web-course/blob/master/screenshots/shot7.png?raw=true)
+
+![about](https://github.com/miriamvall/frontend-web-course/blob/master/screenshots/shot1.png?raw=true)
+
+![about](https://github.com/miriamvall/frontend-web-course/blob/master/screenshots/shot3.png?raw=true)
