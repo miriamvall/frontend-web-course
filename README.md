@@ -12,3 +12,7 @@ The website has the following parts:
 ## Author
 
 Miriam Vall - miriam.vall@estudiantat.upc.edu
+
+## Some pics of the website:
+
+![home](https://github.com/miriamvall/frontend-web-course/blob/master/screenshots/shot4.png?raw=true)
